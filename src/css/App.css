@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+}
+
+.globle_icon {
+  width: 20px;
+  height: 20px;
+  font-weight: 200;
+}
+
+#language {
+  width: 3.1rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+  background-color: ghostwhite;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 60rem;
+  padding-bottom: 1rem;
+  margin-left: 8rem;
+}
+
+nav {
+  background-color: ghostwhite;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  font-size: 1rem;
+}
+
+#text {
+  width: 42rem;
+  padding: 0.3rem;
+  background-color: ghostwhite;
+  outline: none;
+  border: none;
+  margin-top: 0.3rem;
+}/*# sourceMappingURL=app.css.map */
