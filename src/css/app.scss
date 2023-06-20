@@ -1,4 +1,4 @@
-$nav-icon_size: 20;
+$nav-icon_size: 22;
 $nav-fonts:21;
 *{
     padding: 0;
@@ -6,7 +6,8 @@ $nav-fonts:21;
 .globle_icon{
     width: $nav-icon_size*1px;
     height: $nav-icon_size*1px;
-    font-weight: 200;
+    position: relative;
+    top: 0.3rem;
 }
 
 #language{
@@ -20,13 +21,14 @@ $nav-fonts:21;
 form{
     display: flex;
     justify-content: space-between;
-    width: 60rem;
+    width: 70rem;
     padding-bottom: 1rem;
     margin-left: 8rem;
 
 }
 nav{
     background-color: ghostwhite;
+    padding: 1rem;
 }
 ::-webkit-input-placeholder{
     color: black;
@@ -38,5 +40,107 @@ nav{
     background-color: ghostwhite;
     outline: none;
     border: none;
-    margin-top: 0.3rem;
+    margin-top: 0.2rem;
+    border-left-color: black;
+    border-left-style: solid;
+    border-width: 0.4px;
+}
+.search_icon{
+    width: $nav-icon_size*1px;
+    height: $nav-icon_size*1px;
+    position: relative;
+    top: 0.3rem;
+    color: blue;
+    cursor: pointer;
+}
+@mixin NavButton{
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.nav_log{
+ @include NavButton();
+background-color: white;
+border:0.3px solid #fb7c58;
+
+}
+.nav_get{
+    @include NavButton();
+    border:0.3px solid #fb7c58;
+    background-color: #fb7c58;
+    color: white ;
+}
+.nav_button{
+    display: flex;
+    gap: 10px;
+    // padding-top: 5px;
+}
+.selection_logo{
+    width: 20rem;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.section_sct{
+    display: flex;
+    gap: 1rem;
+}
+
+$select_border:none;
+
+#select{
+    border: $select_border;
+    font-size: $nav-fonts*1px;
+    outline: $select_border;
+}
+option{
+    outline: $select_border;
+}
+.selection_img{
+    width: 7rem;
+    cursor: pointer;
+}
+.main{
+    background-color: #fff1ee; 
+    margin-top: 1rem;
+    padding: 5rem;  
+}
+.main_block{
+    display: flex;
+    justify-content: space-between;
+    width: 70rem;
+    margin: 0 auto;
+}
+.texts_header{
+    font-size: 2rem;
+    width: 15rem;
+    font-weight: 500;
+}
+.texts_text{
+    font-size:16px;
+    width: 20rem;
+}
+.texts_btn{
+    border: $select_border;
+    padding-top: 16px;
+    padding-left: 25px;
+    padding-bottom: 16px;
+    padding-right: 25px;
+    font-size: 1rem;
+    color: white;
+    background-color: #fb7c58;
+    cursor: pointer;
+}
+.texts_span{
+    width: 10rem;
+}
+.main_photo{
+    width: 35rem;
 }

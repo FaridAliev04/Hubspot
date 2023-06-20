@@ -15,8 +15,8 @@ const Icons=()=>{
                     </select>
          </div>
          <div className="nav_center">
-            <input placeholder="Contact Sales" type="text" name="search" id="text" />
-            <label htmlFor="search"><AiOutlineSearch className="search_icon"/></label>
+            <input placeholder="Contact Sales" type="text" name="text" id="text" />
+            <label className="label_search" htmlFor="text"><AiOutlineSearch className="search_icon"/></label>
          </div>
 
             <div className="nav_button">
