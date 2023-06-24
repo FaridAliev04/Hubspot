@@ -9,7 +9,9 @@ $nav-fonts:21;
     position: relative;
     top: 0.3rem;
 }
-
+input{
+    outline: none;
+}
 #language{
     width: 3.1rem;
     border: none;
@@ -18,7 +20,7 @@ $nav-fonts:21;
     font-size: 1rem;
     background-color: ghostwhite;
 }
-form{
+.form_nav{
     display: flex;
     justify-content: space-between;
     width: 70rem;
@@ -143,4 +145,45 @@ option{
 }
 .main_photo{
     width: 35rem;
+}
+.see_none{
+    display:$select_border ;
+}
+.form_div{
+    display: flex;
+    flex-direction: column;
+}
+.form_user{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40rem;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.inp{
+    width: 10rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:5px ;
+    padding-bottom:5px ;
+}
+.form_div{
+    display: flex;
+    gap: 0.5rem;
+}
+.form_btn{
+    width: 10rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    @include NavButton();
+    border: 1px solid #fb7c58;
+    background-color: wheat;
+    color: blue;
 }

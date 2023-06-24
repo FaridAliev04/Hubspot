@@ -2,6 +2,12 @@ import React, { Fragment } from "react";
 import Photo2 from "./img/Screenshot_197.png"
 
 const Main=()=>{
+    // const main=document.querySelector(".main")
+    // {
+    //     if(main.className==="main"){
+    //         main.style.display="none"
+    //     }
+    // }
     return <Fragment>
         <div className="main">
             <div className="main_block">

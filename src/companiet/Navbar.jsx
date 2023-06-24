@@ -5,7 +5,7 @@ import{AiOutlineSearch} from "react-icons/ai"
 const Icons=()=>{
     return <Fragment>
         <nav>
-            <form action="#">
+            <form className="form_nav" action="#">
             <div className="nav_left">
                 
                   <RiGlobeFill className="globle_icon"/>
