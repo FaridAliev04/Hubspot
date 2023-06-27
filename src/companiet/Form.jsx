@@ -4,7 +4,7 @@ import {AiOutlineEye,AiOutlineEyeInvisible} from "react-icons/ai"
 const Form=()=>{
 
     const [user,setUser]=useState("")
-    const [password,setPassword]=useState()
+    const [password,setPassword]=useState("")
     const [email,setEmail]=useState("")
     
     const type=()=>{
@@ -51,9 +51,7 @@ const Form=()=>{
                     <input  value={email} onChange={(e)=>setEmail(e.target.value)} className="inp" type="email" name="email" id="email" />
                 </div>
             </div>
-            <button onClick={()=>{
-               
-            }} className="form_btn">Log in</button>
+            <button className="form_btn">Log in</button>
         </form>
     </Fragment>
 }

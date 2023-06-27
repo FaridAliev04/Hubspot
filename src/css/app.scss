@@ -159,6 +159,11 @@ option{
     gap: 1rem;
     width: 40rem;
     margin: 0 auto;
+    background-color: #fff1ee;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    box-shadow: 5px 7px 13px #fb7c58;
 }
 .form{
     display: flex;
@@ -186,4 +191,77 @@ option{
     border: 1px solid #fb7c58;
     background-color: wheat;
     color: blue;
+}
+.countiner{
+    width: 60%;
+    margin: 0 auto;
+    border: 0.4px solid #fff1ee;
+    border-radius: 9px;
+    background-color: #fff1ee;
+    padding: 10px 14px;
+    box-shadow: 5px 7px 13px #fb7c58;
+}
+.number{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.num_1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: #fb7c58;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.info_btn{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+@mixin infoBtn{
+    padding-left:17px ;
+    padding-right:17px ;
+    padding-top:7px ;
+    padding-bottom:7px ;
+    cursor: pointer;
+    border: none;
+    background-color: #fb7c58;   
+    border-radius: 9px; 
+}
+.information_btn{
+    @include infoBtn()
+}
+.info_icons{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.info_after{
+    background-color: #5D6D7E;
+}
+.sped_before{
+    background-color: #5D6D7E;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.help_header{
+    width: 25rem;
+    color: #5D6D7E;
+    margin-top: 3rem;
+}
+.num_info{
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: center;
 }
