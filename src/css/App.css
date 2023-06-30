@@ -301,4 +301,20 @@ option {
   margin: 0 auto;
   margin-top: 3rem;
   text-align: center;
+}
+
+.faq_accordion {
+  width: 25rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.faq_details {
+  background-color: #fff1ee;
+}
+
+#panel1a-header {
+  background-color: #fb7c58;
+  margin-top: 1rem;
+  color: white;
 }/*# sourceMappingURL=app.css.map */
